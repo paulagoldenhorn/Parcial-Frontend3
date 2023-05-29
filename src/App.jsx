@@ -1,13 +1,13 @@
-
 // import './App.css'
+import Card from "./Components/Card"
 
 function App() {
-
   return (
-    <>
-      <h1>Good luck!</h1>
-      <p>Te va a ir super bien</p>
-    </>
+    <div className='App'>
+      <h1>Carga de estudiantes</h1>
+      <form></form>
+      <Card />
+    </div>
   )
 }
 
