@@ -1,0 +1,7 @@
+.containerResultado {
+    background-color: lightgreen;
+    font-weight: bold;
+    color: darkgreen;
+    border: solid 2px darkgreen;
+    width: 160px;
+}
