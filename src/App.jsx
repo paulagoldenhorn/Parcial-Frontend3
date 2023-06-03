@@ -3,10 +3,10 @@ import Card from './Components/Card'
 import Formulario from './Components/Formulario'
 
 function App() {
-  const [submittedValue, setSubmittedValue] = useState('')
+  const [submittedValues, setSubmittedValues] = useState('')
 
   function handleSubmit(values) {
-    setSubmittedValue({
+    setSubmittedValues({
       deporte: values.deporte,
       dni: values.dni
     })
@@ -19,7 +19,7 @@ function App() {
       <hr />
       <Formulario onSubmit={handleSubmit} />
       <br />
-      {submittedValue && <Card values={submittedValue} />}
+      {submittedValues && <Card values={submittedValues} />}
     </>
   )
 }
